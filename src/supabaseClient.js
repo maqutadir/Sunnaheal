@@ -1,5 +1,5 @@
 // src/supabaseClient.js
-import { createClient } from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm';
+import { createClient } from '@supabase/supabase-js';
 
 // Load Supabase URL and Anon Key from environment variables
 // For Create React App, environment variables must be prefixed with REACT_APP_
