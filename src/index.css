@@ -1,0 +1,31 @@
+/* src/index.css */
+
+/* Import Tailwind's base styles, component classes, and utility classes */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add any global custom styles below if needed */
+body {
+  /* The font-family is primarily set by Tailwind's config (theme.extend.fontFamily.sans/serif) 
+     and the <style> tag in public/index.html provides a fallback. 
+     You can ensure consistency or add specific global text styles here if necessary. */
+  @apply antialiased; /* Applies font smoothing, often included in @tailwind base */
+}
+
+/* Example of a custom global style (optional) */
+/*
+.custom-link {
+  @apply text-amber-600 hover:text-amber-700 underline;
+}
+*/
+
+/* Styles for the Arabic text to ensure correct rendering for rtl languages */
+.rtl {
+  direction: rtl;
+  text-align: right; /* Or start, depending on desired alignment within the rtl block */
+}
+.dir-rtl { /* another common class name for this */
+  direction: rtl;
+}
+
