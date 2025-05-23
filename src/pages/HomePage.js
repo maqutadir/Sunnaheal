@@ -12,7 +12,7 @@ const HomePage = ({ setCurrentPage }) => {
     const [ingredientOfTheDay, setIngredientOfTheDay] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
-    const heroImageUrl = "https://placehold.co/1920x1080/B8860B/FFF8DC?text=SunnaHeal+Islamic+Art&font=Georgia"; 
+    const heroImageUrl = "/images/Gemini_Generated_Image_wijc2swijc2swijc.png"; 
 
     useEffect(() => {
         const fetchDailyData = async () => {
